@@ -1,1 +1,8 @@
 # Supermarket-SalesAnalysis
+Project OverviewThis project focuses on analyzing supermarket sales data to uncover hidden trends, evaluate shipping performance, and understand customer purchasing patterns. 
+Using Python (Pandas & NumPy),
+raw transactional data was cleaned, 
+validated, and transformed into an analytically ready dataset to help business managers make data-driven decisions.
+🛠️ Tech Stack & Tools UsedLanguage: Python 3.xLibraries: Pandas, NumPy, OpenPyXLEnvironment: VS CodeData Source: Supermarket Sales Sample Dataset
+🏗️ Data Architecture & Transformation (How I Built It)To upgrade the raw data for advanced business intelligence, I performed the following engineering steps using Python:Data Quality Assurance (Validation Check): Verified data integrity by programmatically checking if $\text{Retail Price} \times \text{Quantity} + \text{Tax} = \text{Total (USD)}$. Result: 100% Data Accuracy verified.Temporal Feature Engineering: Extracted Shipping_Day_of_Week and Month from raw dates to enable seasonal trend analysis.Behavioral Categorization: Classified transactions into Weekend vs Weekday to track peak operational periods.Operational Metrics: Calculated Delivery_Days to monitor supply chain and logistics efficiency.
+📊 Key Business Insights Uncovered1. Sales & Revenue DistributionWeekday vs Weekend: Analyzed revenue generation across different parts of the week to assist in workforce scheduling and targeted marketing.Top Contributing Customers: Identified VIP customers contributing the highest share of overall revenue.2. Operational Logistics PerformanceMonitored the average time taken from Order Date to Ship Date to calculate delivery efficiency and identify any potential bottleneck or shipping delays.
